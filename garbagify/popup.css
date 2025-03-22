@@ -1,0 +1,44 @@
+html {
+    width: 500px;
+    height: 500px;
+
+}
+
+.bodything {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Tektur";
+    src: url(/fonts/Tektur-Font.ttf);
+}
+
+.thediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#title {
+    font-family: "Tektur", sans-serif;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+#clickbutton {
+    font-family: "Tektur", serif;
+    color: black;
+    background-color: #e7e7e7;
+    padding: 15px 40px;
+    transition-duration: 0.5s;
+    border: none;
+
+}
+
+#clickbutton:hover {
+    color: #e7e7e7;
+    background-color: black;
+
+}
