@@ -1,38 +1,22 @@
 {
     "name": "Garbagify",
     "description": "Makes the current webpage garbage, by removing all CSS stylesheet links, and <style> tags.",
-    "version": "0.13",
+    "version": "1.0111191892389111110",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
     },
     
-   /* "icons": {
+    "icons": {
         "16": "icons/icon16.png",
         "32": "icons/icon32.png",
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
-      },*/
+      },
       
-    
-    /*"commands": {
-        "talk": {
-            "suggested_key": {
-                "default": "Ctrl+Down",
-                "mac": "Command+Down"
-            },
-            "description": "When you press TAB, it reads the current element."
-        },
-        "_execute_action": {
-            "suggested_key": {
-                "default": "Ctrl+Up",
-                "mac": "Command+Up"
-      }
-    }
-    },*/
+
     "permissions": ["activeTab", "scripting", "tabs"],
     "background": {
-        "service_worker": "service.js"//,
-        //"type": "module"
+        "service_worker": "service.js"
     }
 }
