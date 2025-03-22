@@ -1,7 +1,7 @@
 {
     "name": "Garbagify",
     "description": "Makes the current webpage garbage, by removing all CSS stylesheet links, and <style> tags.",
-    "version": "1.0111191892389111110",
+    "version": "1.1.2",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
