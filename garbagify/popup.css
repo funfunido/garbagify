@@ -40,5 +40,6 @@ html {
 #clickbutton:hover {
     color: #e7e7e7;
     background-color: black;
+    cursor: pointer;
 
 }
