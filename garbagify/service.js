@@ -1,12 +1,3 @@
-chrome.runtime.onInstalled.addListener(function() {
-  
-    chrome.tabs.create({
-      url: 'chrome-extension://hjoihpfnehdlcmgenmgehnmbcjcomhhl/thanks.html',
-      active: true
-    });
-  
-    return false;
-  });
 
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
